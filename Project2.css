@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: url(./header.png);
+  width: 100%;
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  padding: 40px 50px;
+}
+header svg {
+  display: none;
+}
+.headsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-right: 200px;
+  position: relative;
+}
+.headbutton {
+  background-color: #f84646;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 160px;
+  height: 40px;
+  border: 0;
+  box-shadow: 0px 3px 3px #f84646;
+  margin-left: 30px;
+  position: absolute;
+  right: 30px;
+  top: 33px;
+}
+
+.headsection a {
+  font-family: "manrope";
+  font-weight: 500;
+  color: #000000;
+}
+.heroword {
+  display: flex;
+  flex-direction: column;
+  width: 665px;
+  height: 450px;
+  padding-top: 150px;
+}
+.heroword h1 {
+  font-family: "manrope";
+  font-weight: 800;
+
+  font-size: 50px;
+}
+.heroword p {
+  font-family: "manrope";
+  font-weight: 100px;
+  margin-top: 10px;
+  width: 500px;
+}
+.herosearch {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.herosearch input {
+  background-color: #ffffff;
+  width: 475px;
+  height: 70px;
+  color: #00000066;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  border: 0px;
+}
+.herosearch button {
+  width: 125px;
+  height: 55px;
+  border-radius: 8px;
+  background-color: #f84646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 0px;
+  color: #ffffff;
+  margin-left: -135px;
+}
+
+section {
+  margin-top: 100px;
+}
+.sectionkids h1 {
+  font-family: "manrope";
+  font-size: 36px;
+  font-weight: 800;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+.seckid1 {
+  font-family: "manrope";
+  font-weight: 250;
+  font-size: 24px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 1100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.golin6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  gap: 100px;
+}
+.golin6 p {
+  width: 300px;
+  font-family: "manrope";
+  font-size: 18px;
+  font-weight: 250;
+  padding: 10px;
+  display: flex;
+}
+.golin6 h3 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: "manrope";
+  font-size: 24px;
+  font-weight: 800;
+}
+.golin6 div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ulaanbanid {
+  background-color: #f84646;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.ulaanbanid h1 {
+  width: 960px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: "manrope";
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.p1 {
+  font-family: "manrope";
+  width: 200px;
+  font-size: 18px;
+  color: #ffffff;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+}
+.ulaanbanid div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  width: 1200px;
+  margin-top: 90px;
+}
+.xoxo p {
+  width: 200px;
+  font-family: "manrope";
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+.section2dad {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section2 {
+  margin-top: 200px;
+  margin-left: 120px;
+  width: 700px;
+  margin-bottom: 100px;
+}
+.section2 h1 {
+  margin-bottom: 50px;
+  font-family: "manrop";
+  font-size: 60px;
+
+  font-weight: 700;
+}
+.section2 p {
+  font-size: 16px;
+  font-family: "manrope";
+  font-weight: 300;
+  color: #808080;
+}
+.section2 button {
+  background-color: #f84646;
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 70px;
+  border: 0px;
+  color: #ffffff;
+}
+.img {
+  width: 650px;
+  height: 438px;
+  margin-top: 80px;
+  border-radius: 8px;
+}
+.section3dad {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section3 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 120px;
+  width: 700px;
+
+  margin-bottom: 100px;
+}
+.img2 {
+  width: 650px;
+  height: 438px;
+  border-radius: 8px;
+  margin-left: 165px;
+}
+.section3 h1 {
+  font-family: "manrope";
+  font-weight: 700;
+  font-size: 60px;
+}
+.section3 p {
+  font-size: 16px;
+  font-family: "manrope";
+  font-weight: 300;
+  color: #808080;
+}
+.section3 button {
+  background-color: #f84646;
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 70px;
+  border: 0px;
+  color: #ffffff;
+}
+.logos {
+  margin-top: 100px;
+  background-color: #f4f5f7;
+  padding-top: 40px;
+  height: 600px;
+}
+.logos h1 {
+  font-family: "manrope";
+  font-weight: 700;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+.logos p {
+  font-family: "manrope";
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.section4 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.section4 h1 {
+  font-family: "manrope";
+  font-size: 48px;
+  font-weight: 800;
+}
+.section4 p {
+  font-family: "manrope";
+  font-size: 18px;
+  font-weight: 500;
+}
+.section4 button {
+  background-color: #f84646;
+  color: #ffffff;
+  width: 200px;
+  height: 70px;
+  border-radius: 8px;
+  font-size: 24px;
+  border: 0px;
+  margin-top: 10px;
+}
+footer {
+  margin-top: 150px;
+
+  background-color: #f8464a;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.footworddad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.footword {
+  color: #e6e6e6;
+  font-family: "inter";
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footword h6 {
+  font-size: 16px;
+}
+.crdad {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+.cr {
+  color: #e6e6e6;
+  font-size: 20px;
+  font-family: "inter";
+  font-weight: 400;
+}
+.footsvg {
+}
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .heroword {
+    width: 100%;
+  }
+  .heroword p {
+    width: 100%;
+  }
+  .sectionkids h1 {
+    width: 90%;
+  }
+  .seckid1 {
+    width: 90%;
+  }
+  .golin6 {
+    width: 90%;
+  }
+  .ulaanbanid {
+    width: 100%;
+    height: 450px;
+  }
+  .ulaanbanid h1 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+  .ulaanbanid div {
+    width: 90%;
+  }
+  .section2dad {
+    width: 95%;
+    height: 400px;
+  }
+  .section2 {
+    width: 40%;
+    height: 410px;
+    margin: 0px;
+  }
+  .img {
+    width: 30%;
+    height: 400px;
+  }
+  .img2 {
+    width: 30%;
+    height: 400px;
+    display: none;
+  }
+  .section3dad {
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+  }
+  .section3 {
+    width: 40%;
+    height: 410px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  .img2 {
+    width: 30%;
+    height: 400px;
+  }
+  .sectionuvuu {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+  }
+  .section2 h1 {
+    height: 100px;
+  }
+
+  .section3 h1 {
+    height: 135px;
+  }
+  .images {
+    padding: 0px 30px;
+  }
+  footer {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+  .heroword h1 {
+    width: 100%;
+  }
+  .headsection svg {
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .headsection a {
+    display: none;
+  }
+  .header {
+    width: 100%;
+    background-color: #ffffff 40%;
+    background-position: center;
+  }
+  .herosearch {
+    margin-top: 20px;
+  }
+  .headsection {
+    width: 100%;
+    margin: 0%;
+    justify-content: flex-start;
+  }
+  .golin6 {
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+  }
+  .section2dad {
+  }
+  .ulaanbanid {
+    flex-wrap: wrap;
+  }
+}
+footer {
+  flex-direction: column;
+}
+.crdad {
+  margin-left: 0%;
+  margin-top: 30px;
+  flex-direction: column;
+  padding: 0px;
+  gap: 30px;
+}
